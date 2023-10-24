@@ -22,7 +22,7 @@ const paragraphs = [
 
 const typingText = document.querySelector(".typing-text p")
 const inpField = document.querySelector(".wrapper .input-field")
-const tryAgainBtn = document.querySelector(".content button")
+const tryAgainBtn = document.querySelector(".content1 button")
 const timeTag = document.querySelector(".time span b")
 const mistakeTag = document.querySelector(".mistake span")
 const wpmTag = document.querySelector(".wpm span")

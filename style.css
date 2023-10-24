@@ -24,7 +24,7 @@ body {
     background: #007acc;
 }
 .wrapper {
-    width: 700px;
+    width: 1000px;
     padding: 35px;
     background: #1e1e1e;
     border-radius: 10px;
@@ -42,13 +42,13 @@ body {
 }
 .content-box .typing-text {
     overflow: hidden;
-    max-height: 256px;
+    max-height: 300px;
 }
 .typing-text::-webkit-scrollbar {
     width: 0;
 }
 .typing-text p {
-    font-size: 21px;
+    font-size: 25px;
     text-align: justify;
     letter-spacing: 1px;
     word-break: break-all;
@@ -90,10 +90,12 @@ body {
     justify-content: space-between;
     border-top: 3px solid #007acc;
 }
-.content button {
+
+.content1 button {
     outline: none;
     border: none;
-    width: 105px;
+    margin-bottom: 10px;
+    width: 100%;
     color: #007acc;
     padding: 8px 0;
     font-size: 17px;
@@ -104,10 +106,10 @@ body {
     background: none;
     transition: transform 0.2s ease;
 }
-.content button:active {
-    transform: scale(0.89);
+.content1 button:active {
+    transform: scale(0.97);
 }
-.content button:hover {
+.content1 button:hover {
     background: #FFFFFF;
 }
 .content .result-details {
@@ -156,7 +158,7 @@ li:not(:first-child) span {
         font-size: 19px;
         text-align: left;
     }
-    .content button {
+    .content1 button {
         width: 100%;
         font-size: 15px;
         padding: 10px 0;
@@ -184,7 +186,7 @@ li:not(:first-child) span {
     .result-details li {
         margin-bottom: 10px;
     }
-    .content button {
+    .content1 button {
         margin-top: 10px;
     }
 }
